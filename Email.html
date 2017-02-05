@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\Happy\Desktop\webProject\Learning\WebSite Prototype\CSS\index.css" type="text/css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="C:\Users\Happy\Desktop\webProject\Learning\WebSite Prototype\CSS\Email.css">
+        <title>Elite Theaters</title>
+        <link rel="icon" type="image/gif/png" href="C:\Users\Happy\Desktop\webProject\Learning\Images\favicon.ico">
+    </head>
+    <body>
+        <div><!--Container for the nav bar and its upper bar-->
+            <div class="barone">
+                <div class="icon">
+                    <img src="C:\Users\Happy\Desktop\webProject\Learning\Images\favicon.ico" width="60px" height="60px" style="background-color:">
+                </div>
+                <div class="company ">
+                    elite theaters
+                </div>                
+                <div class="loginbutton ">Login
+                    
+                </div>
+            </div>
+            <div class="bartwo">
+                <ul class="nav-bar">
+                    <li><i class="fa fa-home" id="home" style="font-size: 1.2em; color: white"></i><a href="C:\Users\Happy\Desktop\webProject\Learning\WebSite Prototype\HTML\index.html">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Bulk Booking</a></li>
+                    <li><a href="#">Gift cards</a></li>
+                    <li><a href="#">Customer support</a></li>
+                    <li><a href="#">Archives</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="">
+            <div class="emailform">
+            <div class="details">
+                
+                <form method="POST" action="#">
+                    <table>
+                    <tr>
+                        <td>Name:</td>
+                        <th><input type="text" name="name" placeholder="Name"></th>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <th><input type="text" name="email" placeholder="Email"></th>
+                    </tr>
+                    <tr>
+                        <td>Type of issue:</td>
+                        <th>
+                            <input id="one" list="concern" ><br>
+                            <datalist id="concern">
+                                <option value="--Select--" selected></option>
+                                <option value="Refund"></option>
+                                <option value="Cancellation" ></option>
+                                <option value="feedback" ></option>
+                            </datalist>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>details: </td>
+                        <td><textarea cols="25.5px" rows="3px"></textarea><br></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="submit" name="submitbtn">
+                        </td>
+                    </tr>
+                </table>
+                </form>
+            </div><!--Text boxes and submit button-->
+            <div class="logopane">
+                <img src="C:\Users\Happy\Desktop\webProject\Learning\Images\favicon.ico">
+            </div>
+        </div>
+        </div>
+        
+        <div class="footer"><!--Container for the footer-->
+            <div class="newsandsocial"><!--News later and socialmedia-->
+                <div class="newsletter">
+                    NEWSLETTER:<input type="text" id="newsletterbox">
+                </div>
+                <div class="socialmedia">
+                           <i class="fa fa-facebook-square one" style="font-size: 1.99em;"></i>
+                            <i class="fa fa-twitter-square two" style="font-size: 1.99em;"></i>
+                            <i class="fa fa-linkedin-square three" style="font-size: 1.99em"></i>
+                            <i class="fa fa-pinterest four" style="font-size: 1.99em"></i>
+                </div>
+            </div>
+            <div class="copyrightandcontact">
+                <span class="fa fa-copyright">Team Codered</span>    
+            </div><!--This is for copyright and contact-->
+        </div>
+    </body>
+</html>

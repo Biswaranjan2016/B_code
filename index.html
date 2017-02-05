@@ -1,0 +1,311 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Happy\Desktop\webProject\Learning\WebSite Prototype\CSS\index.css" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <!--Modal-->
+        <div class="modal" id="myModal">
+            <div class="modal-content " style="border: solid 1px; width: 30%; padding: 20px; box-sizing: border-box; border-radius: 20px">
+                <!--Login-->
+                <div>
+                    <div class="modal-header">
+      <span class="close">&times;</span>
+      
+    </div>
+                </div>
+                <table>
+                    <tr style="margin-bottom: 30px">
+                        <td class="tbclass">
+                            User Name:
+                        </td>
+                        <td colspan="2" class="tbclass">
+                            <input type="text" name="Name" placeholder="User Name" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+                            Password:
+                        </td>
+                        <td colspan="2" class="tbclass">
+                            <input type="password" name="pwd" placeholder="Password" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+
+                        </td>
+                        <td class="tbclass">
+                            <input type="button" value="Register" name="register" id="registerbtn">
+                        </td>
+                        <td class="tbclass">
+                            <input type="submit" name="Login" id="LoginButton">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center; " class="tbclass"><a id="forgotpwd" href="#" style="text-decoration: none">Forgot password</a>
+                            <td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="modal" id="myModal1">
+            <!--Register Modal-->
+            <div class="modal-content" style="border: solid 1px; width: 30%; padding: 20px; box-sizing: border-box; border-radius: 20px">
+                <!--Register-->
+                <div>
+                    <div class="modal-header">
+      <span class="close">&times;</span>
+      
+    </div>
+                </div>
+                <table>
+                    <tr>
+                        <td class="tbclass">
+                            Name:
+                        </td>
+                        <td class="tbclass">
+                            <input type="text" name="Name" placeholder="User Name" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+                            Email
+                        </td>
+                        <td class="tbclass">
+                            <input type="email" name="pwd" placeholder="Email" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+                            User Name:
+                        </td>
+                        <td class="tbclass">
+                            <input type="text" name="pwd" placeholder="User Name" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+                            Password:
+                        </td>
+                        <td class="tbclass">
+                            <input type="password" name="pwd" placeholder="Password" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+                            Retype Password:
+                        </td>
+                        <td class="tbclass">
+                            <input type="password" name="pwd" placeholder="Reenter" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+
+                        </td>
+                        <td class="tbclass" style="padding-left: 20px;">
+                            <input style="color: white" type="button" value="Register" name="register" id="register">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="modal" id="myModal2">
+            <!--Forgot password modal-->
+            <div class="modal-content" style="border: solid 1px; width: 30%; padding: 20px; box-sizing: border-box; border-radius: 20px">
+                <!--Forgot password-->
+                <div>
+                    <div class="modal-header">
+      <span class="close">&times;</span>
+      
+    </div>
+                </div>
+                <table>
+                    <tr>
+                        <td class="tbclass">
+                            User Name:
+                        </td>
+                        <td colspan="2" class="tbclass">
+                            <input type="text" name="Name" placeholder="User Name" style="padding: 4px;border: solid 1px;border-radius: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbclass">
+
+                        </td>
+                        <td class="tbclass">
+                            <input type="button" value="Reset Password" name="register" id="register">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <!--Container for the nav bar and its upper bar-->
+        <div class="barone">
+            <div class="icon">
+                <img src="C:\Users\Happy\Desktop\webProject\Learning\Images\favicon.ico" width="60px" height="60px" style="background-color:">
+            </div>
+            <div class="company ">
+                elite theaters
+            </div>
+            <div class="loginbutton" id="btn-btn">Login
+
+            </div>
+        </div>
+        <div class="bartwo">
+            <ul class="nav-bar">
+                <li><i class="fa fa-home" id="home" style="font-size: 1.2em; color: white"></i><a href="C:\Users\Happy\Desktop\webProject\Learning\WebSite Prototype\HTML\index.html">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Bulk Booking</a></li>
+                <li><a href="#">Gift cards</a></li>
+                <li><a href="C:\Users\Happy\Desktop\webProject\Learning\WebSite Prototype\HTML\Email.html">Customer support</a></li>
+                <li><a href="#">Archives</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sliders">
+        <div class="imageCollection">
+            <img class="imageclass" src="C:\Users\Happy\Desktop\webProject\Learning\Images\Banners\star wars_req.jpg">
+            <img class="imageclass" src="C:\Users\Happy\Desktop\webProject\Learning\Images\Banners\brave_req.jpg">
+            <img class="imageclass" src="C:\Users\Happy\Desktop\webProject\Learning\Images\Banners\darknight_req.jpg">
+            <img class="imageclass" src="C:\Users\Happy\Desktop\webProject\Learning\Images\Banners\inception_movie_poster_banner_01_req.jpg">
+        </div>
+        <div class="buttons">
+            <div class="fa fa-arrow-circle-left btn" onclick="player(-2)" style="font-size: 2.5em"></div>
+        </div>
+    </div>
+    <!--Sliders-->
+    
+    <!--Gift cards-->
+    
+    <!--Exclusive offers-->
+    <div class="footer">
+        <!--Container for the footer-->
+        <div class="newsandsocial">
+            <!--News later and socialmedia-->
+            <div class="newsletter">
+                NEWSLETTER:<input type="text" id="newsletterbox">
+            </div>
+            <div class="socialmedia">
+                <i class="fa fa-facebook-square one" style="font-size: 1.99em;"></i>
+                <i class="fa fa-twitter-square two" style="font-size: 1.99em;"></i>
+                <i class="fa fa-linkedin-square three" style="font-size: 1.99em"></i>
+                <i class="fa fa-pinterest four" style="font-size: 1.99em"></i>
+            </div>
+        </div>
+        <div class="copyrightandcontact">
+            <span class="fa fa-copyright">Team Codered</span>
+        </div>
+        <!--This is for copyright and contact-->
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        var modal1 = document.getElementById('myModal1');
+        var modal2 = document.getElementById('myModal2');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("btn-btn");
+        var regbtn = document.getElementById("registerbtn");
+        var frgtlnk = document.getElementById("forgotpwd");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        var registerspan = document.getElementsByClassName("close")[1];
+        var forgotspan = document.getElementsByClassName("close")[2];
+
+        // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            regbtn.onclick=function(){
+                modal1.style.display = "block";
+                 modal.style.display = "none";
+                 modal2.style.display = "none";
+            }
+            frgtlnk.onclick=function(){
+                modal2.style.display = "block";
+                modal.style.display = "none";
+            }
+        // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            
+            modal2.style.display = "none";
+        }
+        registerspan.onclick=function(){
+            modal1.style.display = "none";
+        }
+        forgotspan.onclick=function(){
+            modal2.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal1) {
+            modal1.style.display = "none";
+        }
+        else if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        else if (event.target == modal2) {
+            modal2.style.display = "none";
+        }
+    }
+    </script>
+    <script>
+
+
+
+
+
+
+
+
+            var slideIndex=0,validator=0,checker=0,i;
+            var time;
+            mover(0);
+            function mover(n){
+                if(checker){
+                    if(slideIndex==1){
+                        slideIndex=3;
+                    }
+                    else{
+                        slideIndex+=n;
+                    }
+                    checker=0;
+                }
+                
+                var x=document.getElementsByClassName("imageclass");
+                for(i=0;i<x.length;i++){
+                    x[i].style.display="none";
+                }
+                slideIndex++;
+                if(slideIndex>x.length){
+                    slideIndex=1;
+                }
+                x[slideIndex-1].style.display="block";
+                //alert("slideindex"+slideIndex);
+                time=setTimeout(mover,3000);
+            }
+            function player(n){
+                //
+                clearTimeout(time);
+                checker=1;
+                mover(n);
+            }
+        </script>
+
+
+</body>
+
+</html>
